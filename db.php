@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$user = 'root';
-$password = '';
-$dbname = 'movie_dashboard';
+$host = 'sql205.infinityfree.com';
+$user = 'if0_38988916';
+$password = 'esozPC9cKYVi';
+$dbname = 'if0_38988916_phpcrud';
 
 $conn = new mysqli($host, $user, $password, $dbname);
 
