@@ -1,7 +1,7 @@
 <?php
 include 'db.php';
-require 'AddEpisodeHandler.php';
-require 'EpisodeManager.php';
+require 'addEpisodeHandler.php';
+require 'episodeManager.php';
 
 $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 if ($id <= 0) {
